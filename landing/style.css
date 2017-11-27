@@ -1,0 +1,61 @@
+ body {
+ 	background: rgb(240, 240, 240);
+ 	color: rgb(20, 20, 20);
+ 	font-family: Helvetica;
+ 	margin: 0;
+ }
+ h1 {
+ 	font-family: Courier;
+ 	font-size: 50px;
+ 	color: rgb(255, 144, 0);
+ }
+ h2 {
+ 	font-size: 18px;
+ }
+ a {
+ 	text-decoration: none;
+ 	color: blue;
+ }
+ a:hover {
+ 	text-decoration: none;
+ 	color: green;
+ }
+
+ /*Custom design*/
+ #banner {
+ 	background-image: url("images/bridge.jpg");
+ 	background-size: cover;
+ 	padding: 150px 0;
+ 	text-align: center;
+ 	color: white;
+ } 
+ #banner h1 {
+ 	color: white;
+ }
+ #banner p {
+ 	color: white;
+ 	font-size: 30px;
+ 	font-weight: lighter;
+ }
+ .card {
+ 	padding: 50px;
+ 	text-align: center;
+ 	background-color: #f0f0f0;
+    border: none;
+ }
+ #footer {
+ 	background: black;
+ 	color: white;
+ 	font-size: 20px;
+ 	padding: 20px;
+ }
+#footer a {
+	font-size: 20px;
+	color: grey;
+}
+#footer a:hover {
+	color: white;
+}
+#footer li {
+	display: inline;
+}
